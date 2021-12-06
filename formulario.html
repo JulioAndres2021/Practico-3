@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <title>FORMULARIO</title>
+    <link href="estilo.css" rel="stylesheet" type="text/css">
+  </head>
+ <body>
+<form action="recibir.html" method="post">
+  <table>
+    <tr>
+        <td>Tipo de Documento</td>
+       <td><select name="Elija una Opcion" >
+         <option cols="21" value="">DNI</option>
+         <option value="">LC</option>
+         <option value="">PASAPORTE</option>
+         <option value="">CUIL</option>
+       </select> 
+         </td>  
+    <tr>
+         <td>NOMBRES</td>
+         <td><input type="text" placeholder="nombre completo" name="nombre"></td> 
+     </tr>
+     <tr>
+         <td>APELLIDO</td>
+         <td><input type="text" placeholder="Apellido" name="apellido"></td> 
+     </tr>
+     <tr>
+      <td>GENERO</td>
+      <td><input type="radio" name="genero">FEMENINO</td> 
+      <td><input type="radio" name="genero">MASCULINO</td>
+  </tr>
+        
+      <tr>
+        <tr>
+          <td>Descripcion</td>
+          <td><textarea name="descripcion" rows="5" cols="21">Breve descripcion</textarea></td>
+                 
+          </tr>
+       <td>
+        <a href="recibir.html"><p><input type="submit" value="Cargar Informacion" name="Enviar"></p>
+         
+       </td>
+ </table>
+</form>
+ 
+
+
+
+</body>
+</html>

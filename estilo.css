@@ -1,0 +1,26 @@
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+}
+/* spacing */
+
+table {
+    table-layout: fixed;
+    width: 45%;
+    align-content: center;
+    border-collapse: collapse;
+    border: 3px solid rgb(5, 35, 167);
+  }
+    
+  th, td {
+    padding: 5px;
+  }
+  .texto{
+      margin: 20px;
+      border: 10px;
+      padding: 2px;
+      height: fit-content;
+      width: fit-content;
+  }
